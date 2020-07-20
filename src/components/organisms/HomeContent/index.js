@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.css";
 import SearchBar from "../../molecules/SearchBar";
 import FilterBar from "../../molecules/FilterBar";
-import Card from "../../molecules/Card";
 
 const HomeContent = ({
   value,
@@ -13,32 +12,26 @@ const HomeContent = ({
   onClick,
   handleFilters,
   filters,
-  projectName,
-  projectDescription,
-  projectAdress,
-  projectLink,
-  linkText,
+  children,
 }) => {
   return (
     <div className="homeContent-container">
-      <SearchBar
-        value={value}
-        placeholder={placeholder}
-        type={type}
-        onChange={onChange}
-        buttonImg={buttonImg}
-        onClick={onClick}
-      />
+      <section>
+        <SearchBar
+          value={value}
+          placeholder={placeholder}
+          type={type}
+          onChange={onChange}
+          buttonImg={buttonImg}
+          onClick={onClick}
+        />
 
-      <FilterBar onClick={handleFilters} filters={filters} />
+        <FilterBar onClick={handleFilters} filters={filters} />
+      </section>
 
-      <Card
-        projectName={projectName}
-        projectDescription={projectDescription}
-        projectAdress={projectAdress}
-        projectLink={projectLink}
-        linkText={linkText}
-      />
+      <section>{children}</section>
     </div>
   );
 };
+
+export default HomeContent;

@@ -13,7 +13,7 @@ const Card = ({
       <h3>{projectName}</h3>
       <p>{projectDescription}</p>
       <p>{projectAdress}</p>
-      <a href={projectLink}>{linkText}</a>
+      <a href={projectLink} target='blank'>{linkText}</a>
     </div>
   );
 };

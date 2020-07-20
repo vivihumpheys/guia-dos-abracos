@@ -9,7 +9,7 @@
     {
       "nome": "Instituto Céu Estrela Guia",
       "descricao": "O Instituto CEU Estrela Guia é uma instituição Espiritualista, Monoteísta, sem fins lucrativos.  Há 1 ano, realizam através de uma kombi, a ação de levar para a rua todas as doações e cestas básicas arrecadadas para distribuição aos moradores de rua.",
-      "endereco": "R. Itapiru, 137 - Vila da Saúde, Zona Sul, São Paulo-SP",
+      "endereco": "R. Itapiru, 137 - Vila da Saúde, Zona Sul, São Paulo - SP",
       "zona": "Zona Sul",
       "link": "https://www.instagram.com/ceuestrelaguia/"
     },
@@ -30,7 +30,7 @@
     {
       "nome": "Anjos da Madrugada",
       "descricao": "Localizado em Taboão da Serra, o projeto se intitula como grupo de pessoas simples que se uniram para fazer o bem. O grupo se organiza doando cestas básicas, alimentos, itens de higiene, entre outros para pessoas carentes.",
-      "endereco": "Taboão da Serra, Zona Oeste- SP",
+      "endereco": "Taboão da Serra, Zona Oeste - SP",
       "zona": "Zona Oeste",
       "link": "https://www.instagram.com/anjos_madrugada/"
     },
@@ -50,7 +50,7 @@
     },
     {
       "nome": "Casa 1",
-      "descricao": "A Casa 1 é um centro de cultura e acolhimento de pessoas LGBT, é uma organização localizada na região central da cidade de S�o Paulo e financiada coletivamente pela sociedade civil. Eles contam com a ajuda de voluntários e com doações de alimentos e itens de higiene.",
+      "descricao": "A Casa 1 é um centro de cultura e acolhimento de pessoas LGBT, é uma organização localizada na região central da cidade de São Paulo e financiada coletivamente pela sociedade civil. Eles contam com a ajuda de voluntários e com doações de alimentos e itens de higiene.",
       "endereco": "Rua Adoniran Barbosa 151, Bela Vista - Centro, São Paulo - SP",
       "zona": "Centro",
       "link": "http://www.casaum.org/blog/"
@@ -78,33 +78,23 @@
     },
     {
       "nome": "Bem da Madrugada",
-      "descricao": "",
-      "endereco": "Sé, Centro - SP, São Paulo",
+      "descricao": "Coletivo de rua que funciona de forma colaborativa, ajudando o povo de rua sem vínculos religiosos, financeiros ou políticos. O projeto tem uma loja virtual em que é possível comprar itens para doação.",
+      "endereco": "Sé, Centro, São Paulo - SP",
       "zona": "Centro",
       "link": "https://www.instagram.com/bem_da_madrugada/"
     },
     {
-      "nome": "",
-      "descricao": "",
-      "endereco": "",
-      "link": ""
+      "nome": "Beija-flores Solidários",
+      "descricao": "A missão do Projeto Beija-flores Solidários é interagir de forma positiva na vida das pessoas em situação de rua, estado de vulnerabilidade social ou pouca condição financeira, além de capacitar e criar entretenimentos aos moradores da região.",
+      "endereco": " Rua Leopoldo de Freitas, 444, Vila Esperança, Zona Leste, São Paulo - SP",
+       "zona": "Zona Leste",
+      "link": "http://www.beijafloressolidarios.org.br/"
     },
     {
-      "nome": "",
-      "descricao": "",
-      "endereco": "",
-      "link": ""
-    },
-    {
-      "nome": "",
-      "descricao": "",
-      "endereco": "",
-      "link": ""
-    },
-    {
-      "nome": "",
-      "descricao": "",
-      "endereco": "",
-      "link": ""
+      "nome": "Arcah",
+      "descricao": "A Arcah é uma instituição que promove a reintegração de pessoas em situação de rua na sociedade. Busca ressignificar a vida do público atendido, oferecendo ferramentas para redescobrimento de paixões, resgate da sua autoestima e confiança, desenvolvimento de aprendizados em diferentes capacitações despertando, em cada indivíduo, o sentimento de pertencimento a um grupo, reconhecendo seu papel, deveres e direitos na sociedade.",
+      "endereco": "Rua da Consolação, 574, Consolação, São Paulo - SP",
+      "zona":"Centro",
+      "link": "https://www.arcah.org/"
     }
    ]
