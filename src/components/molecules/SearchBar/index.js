@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Search from "../../atoms/Search";
 
-const SearchBar = ({ value, placeholder, type, onChange, buttonImg }) => {
+const SearchBar = ({ value, placeholder, type, onChange, buttonImg, onClick }) => {
   return (
     <div className='searchBar-box'>
       <Search
@@ -11,7 +11,7 @@ const SearchBar = ({ value, placeholder, type, onChange, buttonImg }) => {
         type={type}
         onChange={onChange}
       />
-      <button>
+      <button onClick={onClick}>
         <img alt="button" src={buttonImg}></img>
       </button>
     </div>
