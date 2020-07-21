@@ -12,8 +12,15 @@ class Home extends Component {
     this.state = {
       inputValue: "",
       data: [],
-      filters: ["Zona Norte", "Zona Sul", "Centro", "Zona Leste", "Zona Oeste", "Todos"],
-      error: ''
+      filters: [
+        "Zona Norte",
+        "Zona Sul",
+        "Centro",
+        "Zona Leste",
+        "Zona Oeste",
+        "Todos",
+      ],
+      error: "",
     };
   }
 
@@ -28,15 +35,48 @@ class Home extends Component {
     this.setState({ inputValue });
   };
 
-  onClick = () => {
-      const {inputValue} = this.state;
-      
+  onClick = async () => {
+    const { inputValue } = this.state;
+    if (inputValue && data.length) {
+      try {
+        const result = await data.filter((item) =>
+          item.endereco.toLowerCase().includes(inputValue.toLowerCase())
+        );
+        if (result.length === 0) {
+          throw "Nenhum projeto encontrado nesse bairro";
+        }
+        this.setState({ inputValue: "", data: result, error: "" });
+      } catch (error) {
+        this.setState({ error, inputValue: "" });
+      }
+    } else {
+      this.setState({ error: "Digite o nome do bairro" });
+    }
   };
 
-  handleFilters = () => {};
+  handleFilters = (e) => {
+    const { error } = this.state;
+    const value = e.target.id.toLowerCase();
+    if (value === "todos") {
+      this.setState({ data, error: "" });
+      return;
+    };
+    const result = data.filter((item) => {
+      return item.zona.toLowerCase().includes(value);
+    });
+    
+    if (result.length === 0) {
+      this.setState({
+        data: [],
+        error: "Não foram encontrados projetos nessa região",
+      });
+    } else {
+      this.setState({ data: result, error: "" });
+    }
+  };
 
   render() {
-    const { inputValue, data, filters } = this.state;
+    const { inputValue, data, filters, error } = this.state;
     return (
       <div>
         <GeneralTemplate
@@ -52,19 +92,22 @@ class Home extends Component {
             type="text"
             onChange={this.onChange}
             // buttonImg={buttonImg}
-            // onClick={this.onClick}
-            // handleFilters={this.handleFilters}
+            onClick={this.onClick}
+            handleFilters={this.handleFilters}
             filters={filters}
           >
+            <p>{error}</p>
             {data.map((item, index) => {
               return (
-                <Card
-                  projectName={item.nome}
-                  projectDescription={item.descricao}
-                  projectAdress={item.endereco}
-                  projectLink={item.link}
-                  linkText="Acesse o link do projeto"
-                />
+                <div key={`${index + 1}--card`}>
+                  <Card
+                    projectName={item.nome}
+                    projectDescription={item.descricao}
+                    projectAdress={item.endereco}
+                    projectLink={item.link}
+                    linkText="Abrace essa causa"
+                  />
+                </div>
               );
             })}
           </HomeContent>
