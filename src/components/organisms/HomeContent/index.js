@@ -17,6 +17,7 @@ const HomeContent = ({
   return (
     <div className="homeContent-container">
       <section>
+        <p>Encontre um projeto social perto de você!</p>
         <SearchBar
           value={value}
           placeholder={placeholder}

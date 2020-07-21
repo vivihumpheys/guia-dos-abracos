@@ -25,7 +25,7 @@ const GeneralTemplate = ({
     
       <MainLogo imgLogo= {mainLogo} />
       {children}
-      <Footer footerText="Desenvolvido com React por Viviane Miranda | 2020" />
+      <Footer footerText="Desenvolvido com suor, lágrimas e React por Viviane Miranda | Pandemia de 2020" />
     </div>
   );
 };
