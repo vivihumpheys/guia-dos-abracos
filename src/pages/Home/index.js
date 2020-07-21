@@ -3,7 +3,6 @@ import "./styles.css";
 import GeneralTemplate from "../../components/templates/GeneralTemplate";
 import HomeContent from "../../components/organisms/HomeContent";
 import data from "../../data.json";
-import imgLogo from "../../assets/logo-guia-dos-abracos.png";
 import Card from "../../components/molecules/Card";
 
 class Home extends Component {
@@ -55,16 +54,15 @@ class Home extends Component {
   };
 
   handleFilters = (e) => {
-    const { error } = this.state;
     const value = e.target.id.toLowerCase();
     if (value === "todos") {
       this.setState({ data, error: "" });
       return;
-    };
+    }
     const result = data.filter((item) => {
       return item.zona.toLowerCase().includes(value);
     });
-    
+
     if (result.length === 0) {
       this.setState({
         data: [],
@@ -79,13 +77,7 @@ class Home extends Component {
     const { inputValue, data, filters, error } = this.state;
     return (
       <div>
-        <GeneralTemplate
-          navText1="Home"
-          navText2="Sobre"
-          navText3="Participe"
-          imgLogo={imgLogo}
-          footerText="Desenvolvido com React por Viviane Miranda | 2020"
-        >
+        <GeneralTemplate>
           <HomeContent
             value={inputValue}
             placeholder="Digite um bairro de São Paulo e encontre um projeto"
