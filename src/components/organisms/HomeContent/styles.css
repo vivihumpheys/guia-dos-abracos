@@ -3,7 +3,7 @@
   /* background-color: #F0EDEE; */
 }
 
-.search-filter-box{
+.search-filter-box {
   background-color: wheat;
   padding: 30px;
   box-shadow: 0 0 1em wheat;
@@ -16,7 +16,13 @@
   margin-bottom: 30px;
 }
 
-.cards-box{
+.errorMsg {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.cards-box {
   padding: 20px;
   margin-top: 30px;
 }

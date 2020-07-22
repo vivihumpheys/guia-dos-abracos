@@ -1,0 +1,50 @@
+.sobre-icon {
+    width: 45px;
+    height: 40px;
+}
+
+.sobre-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+}
+
+.headline-box {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-quote {
+    text-align: end;
+    font-style: italic;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: -55px;
+}
+
+.sobreContent-container {
+    text-align: center;
+}
+
+.text-content {
+    max-width: 700px;
+    text-align: justify;
+}
+
+.text-content--box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.whole-text--container {
+    padding: 35px;
+    background-color: #F0EDEE;
+    box-shadow: 0 0 1em #689689;
+
+}

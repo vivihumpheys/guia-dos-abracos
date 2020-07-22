@@ -12,6 +12,7 @@ const HomeContent = ({
   handleFilters,
   filters,
   children,
+  errorMsg,
 }) => {
   return (
     <div className="homeContent-container">
@@ -27,6 +28,7 @@ const HomeContent = ({
           onClick={onClick}
         />
 
+        <p className="errorMsg">{errorMsg}</p>
         <FilterBar onClick={handleFilters} filters={filters} />
       </section>
 

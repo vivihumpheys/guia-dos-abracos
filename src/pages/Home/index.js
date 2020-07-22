@@ -87,8 +87,9 @@ class Home extends Component {
             onClick={this.onClick}
             handleFilters={this.handleFilters}
             filters={filters}
+            errorMsg={error}
           >
-            <p>{error}</p>
+            
             {data.map((item, index) => {
               return (
                 <div key={`${index + 1}--card`} className='cardBox'>
