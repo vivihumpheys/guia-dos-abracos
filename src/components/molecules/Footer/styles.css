@@ -1,0 +1,15 @@
+.footer-box{
+    background-color: #689689;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    height: 60px;
+    color:whitesmoke;
+    margin-top: 100px;
+
+}

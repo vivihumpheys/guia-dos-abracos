@@ -1,0 +1,14 @@
+.search {
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid #689689;
+    color: black;
+    outline: none;
+
+}
+
+.search-box {
+    display: inline-block;
+}

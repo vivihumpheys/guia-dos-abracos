@@ -10,10 +10,12 @@ const Card = ({
 }) => {
   return (
     <div className="card-box">
-      <h3>{projectName}</h3>
-      <p>{projectDescription}</p>
-      <p>{projectAdress}</p>
-      <a href={projectLink} target='blank'>{linkText}</a>
+      <h3 className="card-title">{projectName}</h3>
+      <p className="card-description">{projectDescription}</p>
+      <p className="card-adress">{projectAdress}</p>
+      <a className="card-link" href={projectLink} target="blank">
+        {linkText}
+      </a>
     </div>
   );
 };

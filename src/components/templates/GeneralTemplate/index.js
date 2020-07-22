@@ -15,11 +15,11 @@ const GeneralTemplate = ({
     <div className='generalTemplate-container'>
      
       <NavBar 
-      navText1='Home'
+      navText1='home'
       linkText1='/'
-      navText2='Sobre'
+      navText2='sobre'
       linkText2='/sobre'
-      navText3='Participe'
+      navText3='participe'
       linkText3='/participe'
       />
     

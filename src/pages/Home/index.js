@@ -12,12 +12,12 @@ class Home extends Component {
       inputValue: "",
       data: [],
       filters: [
-        "Zona Norte",
-        "Zona Sul",
-        "Centro",
-        "Zona Leste",
-        "Zona Oeste",
-        "Todos",
+        "zona norte",
+        "zona sul",
+        "centro",
+        "zona leste",
+        "zona oeste",
+        "todos",
       ],
       error: "",
     };
@@ -80,7 +80,7 @@ class Home extends Component {
         <GeneralTemplate>
           <HomeContent
             value={inputValue}
-            placeholder="Digite um bairro de São Paulo e encontre um projeto"
+            placeholder="Digite um bairro ou região de São Paulo"
             type="text"
             onChange={this.onChange}
             // buttonImg={buttonImg}
@@ -91,13 +91,13 @@ class Home extends Component {
             <p>{error}</p>
             {data.map((item, index) => {
               return (
-                <div key={`${index + 1}--card`}>
+                <div key={`${index + 1}--card`} className='cardBox'>
                   <Card
                     projectName={item.nome}
                     projectDescription={item.descricao}
                     projectAdress={item.endereco}
                     projectLink={item.link}
-                    linkText="Abrace essa causa"
+                    linkText="ABRACE ESSA CAUSA"
                   />
                 </div>
               );

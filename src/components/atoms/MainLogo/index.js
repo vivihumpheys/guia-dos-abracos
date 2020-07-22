@@ -6,7 +6,7 @@ const MainLogo = ({
 }) => {
   return (
     <div className='mainLogo-box'>
-      <img alt='logo-principal' src={imgLogo}></img>
+      <img alt='logo-principal' className='mainLogo' src={imgLogo}></img>
     </div>
   );
 };

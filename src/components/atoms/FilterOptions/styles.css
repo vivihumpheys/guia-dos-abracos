@@ -1,0 +1,27 @@
+.filterOptions-filter {
+    display: inline-flex;
+    padding: 6px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #689689;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.filterText{
+    margin:0;
+}
+
+
+.filterOptions-filter:hover{
+    opacity: 0.8;
+}
+
+.filterOptions-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+    cursor: pointer;
+}

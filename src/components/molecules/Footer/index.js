@@ -3,8 +3,8 @@ import "./styles.css";
 
 const Footer = ({ footerText }) => {
   return (
-    <footer>
-      <p>{footerText}</p>
+    <footer className='footer-box'>
+      <p className='footer-text'>{footerText}</p>
     </footer>
   );
 };

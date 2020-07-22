@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #422040 ;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+}
+
+.navItens-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+ }
+
+.nav-Item{
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+.nav-Item:hover{
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navItem-hover:hover{
+    text-decoration: none;
+}

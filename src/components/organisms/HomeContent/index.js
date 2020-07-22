@@ -8,7 +8,6 @@ const HomeContent = ({
   placeholder,
   type,
   onChange,
-  buttonImg,
   onClick,
   handleFilters,
   filters,
@@ -16,21 +15,22 @@ const HomeContent = ({
 }) => {
   return (
     <div className="homeContent-container">
-      <section>
-        <p>Encontre um projeto social perto de você!</p>
+      <section className="search-filter-box">
+        <p className="subtitle-home">
+          Encontre um projeto social perto de você!
+        </p>
         <SearchBar
           value={value}
           placeholder={placeholder}
           type={type}
           onChange={onChange}
-          buttonImg={buttonImg}
           onClick={onClick}
         />
 
         <FilterBar onClick={handleFilters} filters={filters} />
       </section>
 
-      <section>{children}</section>
+      <section className="cards-box">{children}</section>
     </div>
   );
 };

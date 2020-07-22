@@ -1,0 +1,12 @@
+.mainLogo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin:0;
+}
+
+.mainLogo{
+    max-width: 410px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}

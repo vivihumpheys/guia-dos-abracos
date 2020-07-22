@@ -1,19 +1,27 @@
 import React from "react";
 import "./styles.css";
 import Search from "../../atoms/Search";
+import { BsSearch } from "react-icons/bs";
 
-const SearchBar = ({ value, placeholder, type, onChange, buttonImg, onClick }) => {
+const SearchBar = ({
+  value,
+  placeholder,
+  type,
+  onChange,
+
+  onClick,
+}) => {
   return (
-    <div className='searchBar-box'>
+    <div className='searchBar-container'>
+    <div className="searchBar-box">
       <Search
         value={value}
         placeholder={placeholder}
         type={type}
         onChange={onChange}
       />
-      <button onClick={onClick}>
-        <img alt="button" src={buttonImg}></img>
-      </button>
+      <BsSearch onClick={onClick} className="search-button" />
+    </div>
     </div>
   );
 };

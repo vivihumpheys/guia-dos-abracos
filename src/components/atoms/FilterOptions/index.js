@@ -11,7 +11,7 @@ const FilterOptions = ({ onClick, filters }) => {
             key={`${index + 1}--option`}
             className="filterOptions-filter"
           >
-            <h3 id={item}>{item}</h3>
+            <h6 className='filterText' id={item}>{item}</h6>
           </div>
         );
       })}

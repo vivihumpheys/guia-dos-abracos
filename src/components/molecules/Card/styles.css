@@ -1,0 +1,37 @@
+.card-box {
+    border-radius: 10px;
+    border: 2px solid #422040;
+    background-color: #F0EDEE;
+    max-width: 750px;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(173, 80, 17, 0.2)
+}
+
+.card-title {
+    font-family: 'Comfortaa', cursive;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* .card-description {
+    max-width: 550px;
+} */
+
+
+.card-adress {
+    font-style: italic;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #E57A44;
+    font-weight: bold;
+   margin:0;
+   padding: 5x;
+}
+
+.card-link:hover {
+    font-size: larger;
+    color: #E57A44;
+}
