@@ -1,0 +1,44 @@
+.mail-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.mail-text {
+    font-size: 17px;
+}
+
+.mail-text:hover {
+    font-weight: bold;
+}
+
+
+.mail-link {
+    display: flex;
+    text-decoration: none;
+    color: #422040;
+    font-size: 15px;
+}
+
+.mail-link:hover {
+    text-decoration: none;
+    color: #422040;
+}
+
+.contactMsg {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+
+.icons-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

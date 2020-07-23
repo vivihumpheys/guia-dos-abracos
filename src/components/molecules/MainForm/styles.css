@@ -1,0 +1,20 @@
+.form-container {
+    max-width: 600px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.form-button {
+    margin-top: 20px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}

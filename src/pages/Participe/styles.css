@@ -1,0 +1,33 @@
+.participeTitle-box {
+  display: flex;
+  justify-content: center;
+
+}
+
+.participeSubtitle {
+  max-width: 450px;
+}
+
+.participeTitle-container {
+  text-align: center;
+}
+
+.participeTitle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-heart {
+  width: 30px;
+  height: 41px;
+  margin-left: 10px;
+}
+
+.participeContent--container {
+  background-color: wheat;
+  padding: 30px;
+  box-shadow: 0 0 1em wheat;
+
+}
