@@ -18,7 +18,7 @@ const SobreContent = () => {
             <h3>Por que Guia dos Abraços?</h3>
           </div>
         </span>
-        <p>(ou: Ficar na rua não é atrativo, Bia Dória)</p>
+        <p>(ou: Ficar na rua não é atrativo)</p>
         <section className="text-content--box">
           <article className="text-content">
             <p>
