@@ -12,3 +12,12 @@
 .search-box {
     display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+    .search {
+        min-width: 305px;
+        
+    
+    }
+    
+}

@@ -20,7 +20,7 @@ const Contact = ({ contactMsg, contactMail, contactPhone }) => {
           <a
             className="mail-link"
             target="blank"
-            href="https://api.whatsapp.com/send?phone=5511961630349&text=Ol%C3%A1%2C%20bem-vindo%20ao%20Guia%20dos%20Abra%C3%A7os!%20Como%20podemos%20te%20ajudar%3F"
+            href="https://bit.ly/fale-com-o-guia"
           >
             <FaWhatsapp className="mail-icon" />
             <h5 className="mail-text">{contactPhone}</h5>

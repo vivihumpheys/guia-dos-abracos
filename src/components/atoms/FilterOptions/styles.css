@@ -9,12 +9,12 @@
     color: white;
 }
 
-.filterText{
-    margin:0;
+.filterText {
+    margin: 0;
 }
 
 
-.filterOptions-filter:hover{
+.filterOptions-filter:hover {
     opacity: 0.8;
 }
 
@@ -24,4 +24,18 @@
     align-items: center;
     width: 650px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .filterOptions-box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        cursor: pointer;
+        height: 250px;
+    }
+
+    .filterOptions-filter:hover {
+        opacity: 0.8;
+    }
 }

@@ -1,15 +1,41 @@
-.footer-box{
+.footer-box {
     background-color: #689689;
 }
 
-.footer-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-text {
+    text-align: center;
     font-family: 'Comfortaa', cursive;
     margin: 0;
     height: 60px;
-    color:whitesmoke;
-    margin-top: 100px;
+    color: white;
+    margin-top: 0;
+    padding: 5px;
+}
 
+.iconText-box {
+    text-align: center;
+    padding: 5px;
+}
+
+.iconText-box a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.iconText-box a:hover {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.github-icon {
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footerIcons-container {
+    padding: 15px;
 }

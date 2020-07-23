@@ -25,13 +25,14 @@ const Participe = () => {
           formLabel1="Seu projeto:"
           formLabel2="E-mail:"
           formLabel3="Conte-nos um pouco sobre o projeto:"
+          formLabel4='Endereço:'
           CheckBoxText="Quero receber novidades do Guia dos Abraços por e-mail"
           buttonText="Enviar"
         />
         <Contact
           contactMsg="Dúvidas ou sugestões? Escreva pra gente!"
           contactMail="guiadosabracos@gmail.com"
-          contactPhone="11 961630349"
+          contactPhone="Mande um zap ;)"
         />
       </section>
     </GeneralTemplate>

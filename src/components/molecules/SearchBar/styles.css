@@ -4,19 +4,32 @@
     cursor: pointer;
 }
 
-.search-button:hover{
+.search-button:hover {
     opacity: 0.4;
     width: 40px;
 }
 
-.searchBar-box{
+.searchBar-box {
     display: flex;
     justify-content: space-between;
     width: 500px;
     margin-bottom: 20px;
 }
 
-.searchBar-container{
+.searchBar-container {
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchBar-box {
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-button {
+      margin-top:15px;
+    }
 }
